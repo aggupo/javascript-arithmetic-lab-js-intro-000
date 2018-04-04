@@ -30,6 +30,6 @@ function preserveDecimal(n) {
   if (typeof n === 'string') {
     return true;
   } else {
-    return n.parseInt();
+    return parseInt(n);
   }
 }
