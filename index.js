@@ -27,5 +27,9 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  return a + b;
+  if (typeof n === 'string') {
+    return true;
+  } else {
+    return n.parseInt();
+  }
 }
